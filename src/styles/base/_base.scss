@@ -1,0 +1,39 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m;
+    background-color: $body-bg;
+    padding: 0 $m;
+}
+
+.nav {
+    list-style: none;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    padding: $s 0;
+}
+
+.nav li {
+    margin-right: $l;
+}
+
+.nav li .nav-link {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: $s;
+}
+
+.nav li .nav-link:hover {
+    background-color: white;
+    color: red;
+}
+
+.is-active {
+    background-color: white;
+    color: red !important;
+}
