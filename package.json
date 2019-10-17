@@ -12,6 +12,7 @@
   "author": "Taslim A Hussain",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.17.1",
     "moment": "^2.24.0",
     "normalize.css": "^8.0.1",
     "react": "^16.9.0",
