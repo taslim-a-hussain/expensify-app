@@ -4,6 +4,8 @@
   "description": "Expensify App",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js",
+    "heroku-postbuild": "npm run build:prod",
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
     "dev-server": "webpack-dev-server",
