@@ -14,5 +14,6 @@ app.get('*', (req, res) => {
 
 // Start a server
 app.listen(port, () => {
-    console.log('Server is up!');
+    console.log('\x1b[32m','---------- Server is up! ----------');
+    console.log('\x1b[36m%s\x1b[0m','http://localhost:'+port);
 });
